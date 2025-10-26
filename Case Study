@@ -1,0 +1,45 @@
+---CASE_STUDY
+--transaction_id, transaction_date, transaction_time, transaction_qty, store_id, product_id, unit_price, product_category, product_type, product_detail.
+
+---1: Transactions per hour 
+SELECT 
+  --transaction_id, 
+  transaction_date,
+  store_location,
+  product_category,
+  product_detail,
+  COUNT (DISTINCT(transaction_id)) AS Number_of_Sales,--from the transaction are happening in a.
+  SUM(transaction_qty*unit_price) AS REVENUE,
+  
+ 
+  HOUR(transaction_time) AS time_bucket,
+  store_location,
+  product_category,
+  product_detail,
+  product_type,
+  
+  CASE 
+  WHEN transaction_time BETWEEN '01:00:00' AND '23:59:00' THEN 'Morning'
+  WHEN transaction_time BETWEEN '12:00:00' AND '17:59:59' THEN 'Afternoon'
+WHEN transaction_time >= '18:00:00' THEN 'Evening'
+END AS time_bucket,
+
+  DAYNAME(transaction_date) AS day_name,
+  CASE 
+  WHEN DAYNAME(transaction_date) IN ('Sat','Sun') THEN 'WEEKEND'
+  ELSE 'Weekday'
+  END AS Week_DAY,
+  MONTHNAME(transaction_date) AS month_in_year,
+  DATEADD(--uses Interval arithmetic 
+    minute,
+    30 * FLOOR(EXTRACT(MINUTE FROM transaction_time) / 30),
+    DATE_TRUNC('hour', transaction_time)
+  ) AS transaction_time_bucket,
+
+
+FROM CASE_STUDY.PUBLIC.CASE_
+GROUP BY ALL;--sorting in order
+
+
+
+
