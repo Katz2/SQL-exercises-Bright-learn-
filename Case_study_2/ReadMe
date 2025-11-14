@@ -1,6 +1,14 @@
-I have been provided with a dataset titled “Bright Car Sales”, which captures daily
-transactional and pricing information for vehicles sold by Bright Motors.
-Bright Motors has recently appointed a new Head of Sales, whose mission is to expand
-the dealership network, improve sales performance, and optimize inventory. My role, as
-a Junior Data Analyst, is to extract actionable insights from the historical car sales data
-and prepare a presentation that will help guide future sales and marketing strategies.
+
+I have been provided with a generic, simulated dataset “Sales Case Study.csv”,
+which indicates the daily trading information for a large retail store, aggregated for the
+day. The data is only for one of the products sold at this store.
+Each record contains the:
+Date = The day on which the sales occurred
+Sales = Total Rand value of the sales that occurred
+Cost of Sales = Total Rand value of the cost of sales that occurred
+Quantity Sold = Total number of units that have been sold
+What is the daily sales price per unit?
+What is the average unit sales price of this product?
+What is the daily % gross profit?
+What is the daily % gross profit per unit?
+Pick any 3 periods during which this product was on promotion/special:
