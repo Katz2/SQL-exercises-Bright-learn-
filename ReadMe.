@@ -1,0 +1,74 @@
+--- SQL Exercises – Bright Learn
+
+A collection of SQL practice questions and solutions designed to strengthen core SQL concepts, including filtering, aggregation, joins, subqueries, window functions, data cleaning, and more. This repository showcases practical problem‑solving skills often used in data analytics and real business scenarios.
+
+--About this Repo
+
+This project contains:
+
+* Beginner to advanced SQL exercises
+* Realistic business‑style questions
+* Clean, easy‑to‑understand solutions
+* Queries that work on platforms like Snowflake, PostgreSQL, MySQL (with slight modifications)
+
+It serves as both a learning tool and a demonstration of SQL competency for data analytics roles.
+
+
+
+* **Data filtering & sorting** (WHERE, ORDER BY)
+* **Aggregations** (SUM, AVG, COUNT, MAX, MIN)
+* **Grouping & HAVING**
+* **Joins** (INNER, LEFT, RIGHT, FULL)
+* **CASE statements** (cleaning, categorizing)
+* **Handling NULL values**
+* **Subqueries & CTEs**
+* **Window functions** (ROW_NUMBER, RANK, SUM OVER ...)
+* **Data quality checks**
+
+---Folder Structure
+```
+SQL-exercises-Bright-learn-
+│── beginner/       # Basic SELECT, filtering, sorting
+│── intermediate/   # Joins, grouping, CASE, subqueries
+│── advanced/       # Window functions, analytics queries
+│── datasets/       # Sample CSV datasets (if included)
+│── solutions/      # Completed solutions for reference
+│── README.md       # Documentation
+```
+
+
+
+1. Open any SQL file.
+2. Read the problem statement.
+3. Attempt to write your own query.
+4. Compare your answer with the provided solution.
+5. Run the queries in Snowflake, PostgreSQL, MySQL, or any SQL environment.
+
+Any SQL-compatible environment, such as:
+
+* **Snowflake**
+* **PostgreSQL**
+* **MySQL**
+* **SQLite**
+* **BigQuery**
+
+To demonstrate practical SQL ability for Data Analytics, BI, and Data Engineering job applications.
+
+It shows:
+
+* Strong understanding of data manipulation
+* Ability to solve business‑like analytical problems
+* Clean, professional SQL writing
+
+
+
+This is your personal learning repository, but feel free to expand it with new exercises or datasets.
+
+
+If you'd like to connect or review other projects, visit:
+
+* **GitHub:** [https://github.com/Katz2](https://github.com/Katz2)
+
+---
+
+**Thank you for exploring this repository!**
