@@ -1,0 +1,16 @@
+Data Preparation
+The first step involved cleaning and organizing the raw data to ensure accuracy and consistency. This included:
+Removing duplicate records
+Handling NULL values appropriately
+Standardizing formats (dates, text fields, categories)
+Correcting data inconsistencies
+Filtering out unusable or corrupted entries
+
+
+Normalizing
+After cleaning, the dataset was normalized to improve structure and consistency.
+This involved standardizing column names, aligning data formats, and ensuring categories followed a uniform structure.
+
+
+Data Querying
+All analysis and transformation queries were executed using Snowflake, including filtering, aggregations, joins, and creating calculated fields to support further insights and reporting.
