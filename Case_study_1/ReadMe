@@ -1,4 +1,26 @@
-Readme
-Bright Coffee Shop Sales
-Required to showcase trends and insights
-This will be used to help the company get more sales.
+Bright Coffee Shop Sales – Data Analysis Project
+This project explores sales data from Bright Coffee Shop to uncover meaningful trends, performance patterns, and actionable insights.
+The aim is to help the business make data-driven decisions that improve revenue, customer engagement, and operational efficiency.
+
+Project Purpose
+The goal of this analysis is to:
+Identify daily, weekly, and monthly sales trends
+Understand which products contribute the most to revenue
+Highlight customer purchasing behavior
+Detect patterns in peak business hours
+Reveal opportunities to increase sales and optimize operations
+
+Key Insights You Can Expect
+This project uses a combination of SQL, Python, and visual analytics to produce insights such as:
+Top-selling products
+Sales performance by category (e.g., beverages, pastries, etc.)
+Average order value and transaction trends
+Seasonal or time-based patterns
+Store performance comparisons (if multi-location)
+Recommendations based on discovered trends
+
+Tools & Technologies
+BigQuery (SQL analysis & data processing)
+Python / Pandas (data cleaning & transformation)
+Power BI / Tableau (visual dashboards)
+GitHub (project documentation & version control)
