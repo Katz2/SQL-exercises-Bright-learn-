@@ -1,14 +1,87 @@
+Sales Case Study – Retail Product Analysis
+This project analyzes a simulated dataset, Sales Case Study.csv, containing daily sales information for a single retail product. The purpose of the project is to explore sales performance, profitability, pricing behaviour, and promotional periods using SQL, Python, or BI tools.
 
-I have been provided with a generic, simulated dataset “Sales Case Study.csv”,
-which indicates the daily trading information for a large retail store, aggregated for the
-day. The data is only for one of the products sold at this store.
-Each record contains the:
-Date = The day on which the sales occurred
-Sales = Total Rand value of the sales that occurred
-Cost of Sales = Total Rand value of the cost of sales that occurred
-Quantity Sold = Total number of units that have been sold
-What is the daily sales price per unit?
-What is the average unit sales price of this product?
-What is the daily % gross profit?
-What is the daily % gross profit per unit?
-Pick any 3 periods during which this product was on promotion/special:
+Dataset Description
+Each row in the dataset represents aggregated daily performance for a single product.
+The dataset includes the following fields:
+Column	Description
+Date	The day on which the sales occurred
+Sales	Total Rand value of sales for that day
+Cost of Sales	Total Rand value of the cost associated with those sales
+Quantity Sold	Total number of units sold on that day
+The dataset represents only one product, making it ideal for unit-pricing, margin analysis, and time-based insights.
+
+Objectives of the Analysis
+The goal of the case study is to answer key business questions:
+1. What is the daily sales price per unit?
+Calculated as:
+Daily Price per Unit
+=
+Sales
+Quantity Sold
+Daily Price per Unit= 
+Quantity Sold
+Sales
+​	
+ 
+2. What is the average unit sales price of this product?
+Average Unit Price
+=
+∑
+Sales
+∑
+Quantity Sold
+Average Unit Price= 
+∑Quantity Sold
+∑Sales
+​	
+ 
+3. What is the daily % Gross Profit?
+Daily Gross Profit %
+=
+(
+Sales
+−
+Cost of Sales
+)
+Sales
+×
+100
+Daily Gross Profit %= 
+Sales
+(Sales−Cost of Sales)
+​	
+ ×100
+4. What is the daily % Gross Profit per Unit?
+Gross Profit per Unit
+=
+Sales
+−
+Cost of Sales
+Quantity Sold
+Gross Profit per Unit= 
+Quantity Sold
+Sales−Cost of Sales
+​	
+ 
+Promotional Period Identification
+Using pricing fluctuations, quantity spikes, or margin drops, three promotional/special periods were selected.
+These periods typically show:
+Lower price per unit
+Higher quantities sold
+Reduced margin percentage
+(You can list the actual date ranges you identified here.)
+
+Tools Used
+Python (Pandas, Matplotlib/Seaborn) for analysis & visualization
+SQL (Snowflake / BigQuery) for data querying
+Excel / Sheets for quick checks and validations
+Power BI / Tableau for dashboards (optional)
+
+Insights & Summary
+This analysis helps reveal:
+Daily sales performance trends
+Price sensitivity and customer behaviour
+Profitability at both unit and daily levels
+How promotions influence quantity sold and margins
+These insights can support better pricing decisions, promotion planning, and financial forecasting.
